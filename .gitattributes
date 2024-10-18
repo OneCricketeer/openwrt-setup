@@ -1,0 +1,9 @@
+uci-defaults.sh filter=git-crypt diff=git-crypt
+
+static-dns/** filter=git-crypt diff=git-crypt
+
+wireguard/00_interface.sh filter=git-crypt diff=git-crypt
+
+ddns/afraid-v2.sh filter=git-crypt diff=git-crypt
+
+.gitattributes !filter !diff
